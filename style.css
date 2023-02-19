@@ -1,0 +1,132 @@
+
+
+
+/* Header logo, header text and links */
+.headermenu{
+    display: flex;
+    max-height: 150px;
+    padding-bottom: 100px;
+}
+.blueheader{
+    background-color: #1F2937;
+    padding-bottom: 100px;
+    border-radius: 5px;
+}
+.headerlogo{
+    padding: 10px;
+}
+/*text höger om logotypen */
+.logotext{
+    margin-right: 750px;
+    color: #e5e7eb;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+
+/*länkar på höger sida*/
+}
+
+.headerlinks{
+    font-size: 25px;
+    color: #e5e7eb;
+/*projects */
+}
+
+.link1{
+    margin-right: 10px;
+    padding: 30px;
+/*webshop */
+}
+
+.link2{
+    margin-right: 10px;
+    padding: 30px;
+/* about us */
+}
+
+.link3{
+    padding: 30px;
+}
+
+
+/*information, newsletter, image */
+.topinfo{
+    color: #e5e7eb;
+    background: #1F2937;
+    display: flex;
+}
+.infobanner{
+    height: auto;
+    width: 700px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.topinfotext{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.welcome{
+    font-size: 48px;
+    font-weight: bold;
+}
+.smallinfotext1{
+    font-size: 24px;
+}
+.newsletter{
+    background-color: #3882F6;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 25px;
+    margin-left: 510px;
+    font-size: 18px;
+}
+
+/* project examples */
+.projecttext{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+
+}
+.gameexamples{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+
+}
+.exampleimg{
+    height: 300px;
+    width: auto;
+    border-radius: 25px;
+    padding: 10px;
+}
+.gametitle,
+.gameinfo {
+    text-align: center;
+}
+/*bird quote */
+.birdquotesection{
+    background-color: #E5E7EB;
+    border-radius: 5px;
+}
+.birdquote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3%;
+}
+.quotereference{
+    text-align: right;
+    padding-right: 20%;
+    padding-bottom: 3%;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+/*buy box*/
