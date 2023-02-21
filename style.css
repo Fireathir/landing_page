@@ -43,7 +43,8 @@
     color: #E5E7EB;
 }
 
-.projectLink{
+.projectLink,
+.buyLink{
     color:#E5E7EB ;
 }
 
@@ -66,7 +67,9 @@
 .webshopLink:visited,
 .webshopLink:link,
 .projectLink:visited
-.projectLink:link{
+.projectLink:link
+.buyLink:visited,
+.buylink:link{
     color:#E5E7EB;
 }
 
