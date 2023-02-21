@@ -61,7 +61,14 @@
     color: #E5E7EB;
 }
 
-
+.mjLink:visited,
+.mjLink:link,
+.webshopLink:visited,
+.webshopLink:link,
+.projectLink:visited
+.projectLink:link{
+    color:#E5E7EB;
+}
 
 /*information, newsletter, image */
 .topinfo{
