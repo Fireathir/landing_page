@@ -5,7 +5,7 @@
 .headermenu{
     display: flex;
     max-height: 150px;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
 }
 .blueheader{
     background-color: #1F2937;
@@ -14,10 +14,11 @@
 }
 .headerlogo{
     padding: 10px;
+    margin-right: 60%;
 }
 /*text höger om logotypen */
 .logotext{
-    margin-right: 750px;
+
     color: #e5e7eb;
     text-align: center;
     font-size: 30px;
@@ -189,3 +190,56 @@
 .footertext{
     text-align: center;
 }
+
+
+@media only screen and (max-width:1500px) {
+    .topinfo{
+        flex-direction: column;
+        width: 1000px;
+
+    }
+    .infobanner{
+        display: block;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right auto;
+        min-width: 90%;
+    }
+    .newsletter{
+        display: none;
+    }
+    .headerlogo{
+        margin-right: 100px;
+    }
+
+
+}
+
+@media only screen and (max-width:900px) {
+    .topinfo{
+        flex-direction: flex;
+        width: 600px;
+        align-items: center;
+    }
+    .infobanner{
+        height: 100%;
+        width: 100%;
+    }
+
+    .gameexamples{
+        flex-direction: column;
+
+        align-items: center;
+    }
+    .headermenu{
+
+
+    }
+    .headerlogo{
+        margin-right: 10px;;
+    }
+´
+
+}
+
+
