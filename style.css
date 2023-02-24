@@ -31,9 +31,13 @@
 .headerlinks{
     font-size: 25px;
     color: #e5e7eb;
-/*projects */
 }
 
+.headerlinks:hover{
+    color:yellow;
+}
+
+/*projects */
 .link1{
     margin-right: 10px;
     padding: 30px;
@@ -74,6 +78,17 @@
     color:#E5E7EB;
 }
 
+.mjLink:hover,
+.mjLink:link:hover,
+.webshopLink:hover,
+.webshopLink:hover,
+.projectLink:hover,
+.buyLink:hover,
+.buylink:hover{
+    color: yellow;
+}
+
+
 /*information, newsletter, image */
 .topinfo{
     color: #e5e7eb;
@@ -83,13 +98,13 @@
 .infobanner{
     height: auto;
     width: 700px;
-    margin-right: 50px;
+    margin-right: 75px;
     border-radius: 10px;
 }
 
 .topinfotext{
     margin-left: 100px;
-    margin-right: 100px;
+    margin-right: 35px;
 }
 .welcome{
     font-size: 48px;
@@ -236,7 +251,7 @@
 
     }
     .headerlogo{
-        margin-right: 10px;;
+        margin-right: 0px;;
     }
 ´
 
